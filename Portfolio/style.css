@@ -1,0 +1,447 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    background-color: #0a0d10;
+    margin: 0;
+    padding: 0;
+}
+header{
+     width: 90%;
+     margin: auto;
+  
+
+
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.links a{
+    color:#797272;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px;
+}
+.links a:hover{
+    color: #D7AA55;
+    font-size: 24px;
+    transition: 1s;
+}
+i{
+    color: #D7AA55;
+    font-size: 30px;
+    margin: 0 15px;
+    
+}
+#hero-page{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+                  
+}
+.hero-img {
+    width: 55%;
+    height: 90vh;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(58, 51, 35)) ,url("/image/Benzy2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero-text{
+    width: 45%;
+    height: 90vh;
+}
+ li a.active{
+    color: white;
+}
+.hero-text p{
+    font-size: 40px;
+    width: 590px;
+    margin-top:300px;
+    margin-left: 40px;
+    color: white;
+}
+span{
+    color: #D7AA55;
+    font-size: 60px;
+    margin: 0 10px;
+}
+.hero-button{
+    
+    border:solid 5px #D7AA55;
+    font-size: 30px;
+    width: 200px;
+    height: 60px;
+    background: transparent;
+    margin-left: 40px;
+    border-radius: 8px;
+   
+}
+.hero-button a{
+    color: #D7AA55;
+}
+#About{
+    width: 90%;
+    height: 190vh;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+    font-family: serif;
+    color: white;
+    margin-bottom: -40px;
+}
+.container-about p{
+    color: white;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: -15px;
+
+}
+.container-about h2{
+    color: white;
+    font-family: serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: bolder;
+}
+.skills{
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box:hover{
+    background-color: #D7AA55;
+    transform: rotate(35deg);
+    transition: 1s;
+}
+.box1:hover{
+    background-color: #D7AA55;
+    transform: rotate(35deg);
+    transition: 1s;
+}
+.ligne{
+   margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+
+}
+
+
+.box{
+   
+    background-color: #4b4844;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+.box1{
+   
+    background-color: #4b4844;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+.box img{
+   width: 150px;
+}
+.box1 img{
+    width: 200px;
+}
+#portfolio{
+    width: 100%;
+    height: auto;
+    
+}
+#portfolio h2{
+    color: white;
+    font-family: serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: bolder;
+}
+.container-about{
+    display: flex;
+    flex-direction: column;
+}
+.row3{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.boite:hover{
+    border: #D7AA55 solid 5px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.row4{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+}
+.box2{
+    width: 450px;
+    height: 400px;
+    background: url("/image/vue-arriere-du-programmeur-travaillant-toute-nuit.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box3{
+    width: 400px;
+    height: 400px;
+    background: url("/image/971.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box4{
+    width: 400px;
+    height: 400px;
+    background: url("/image/707.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box5{
+    width: 450px;
+    height: 400px;
+    background: url("image/vue-arriere-du-programmeur-travaillant-toute-nuit.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box6{
+    width: 400px;
+    height: 400px;
+    background: url("/image/971.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box7{
+    width: 400px;
+   height: 400px;
+    background: url("/image/707.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.btn{
+
+    width: 200px;
+    height: 60px;
+    background-color: #D7AA55;
+    color: #0a0d10;
+    font-size: 30px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 880px;
+    margin-bottom: 100px;
+}
+.experience{
+    background-color: #4b4844;
+    width: 90%;
+    height: 110vh;
+    margin: auto;
+
+}
+.experience h1{
+    margin-left: 100px;
+}
+.experience p{
+    color: #f3dfdf;
+    font-size: 20px;
+    box-shadow: rgba(119,120,105,1) 3px 3px 6px 0px inset, rgba(253,187,45,1)-3px -3px 6px 1px inset;
+    border-radius: 30px;
+    padding: 10px;
+   
+}
+.experience span{
+    color: white;
+    font-size: 30px;
+    background: linear-gradient(0deg, rgba(119,120,105,1) 0%, rgba(253,187,45,1) 100%);
+    width: 100px;
+    padding: 10px;
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%  ;
+}
+.container-text{
+    margin: auto;
+    width: 60%;
+    height: 45vh;
+    margin-top: 70px;
+   
+}
+.Title{
+    width: 550px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#contact{
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+}
+.formulaire{
+    width: 90%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgb(19, 19, 18) 0%, rgb(100, 85, 54) 100%);   
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.formulaire-container{
+    width: 800px;
+    height: 700px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border-radius: 20px;
+    margin: auto; 
+    padding: 50px;
+
+}
+input{
+    width: 650px;
+    height: 100px; 
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 24px; 
+
+}
+::placeholder{
+    border-bottom:solid 3px #D7AA55;
+}
+.formulaire-container button{
+    width: 300px;
+    background-color: #D7AA55;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.buttons{
+    width: 660px;
+    height:70px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.formulaire-container i{
+    width: 200px;
+    height: 70px; ;
+    background-color:white;
+}
+#contact h2{
+    color: white;
+    font-size: 52px;
+}   
+   
+    
+
+#contact span{
+    margin: 0;
+    font-size: 35px;
+}
+.container-contact{
+    width: 100%;
+    height: 60%;
+    background-color: #4b4844;
+    margin-top: -46px;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 820px;
+    height: auto;
+    padding-top: 50px;
+   
+}
+.row-contact{
+    width: 400px;
+    height: 70px;
+    color: #D7AA55;
+    font-size: 25px;
+    background-color: #0a0d10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.locate{
+    margin: auto;
+    margin-top: 15px;
+}
+.links-network i{
+    margin: 0 23px;
+    color: #ffffff;
+    
+}
+.links-network i:hover{
+    color:#D7AA55;
+    
+}
+.links-network {
+   margin-top: -36px;
+    
+}
+#contact h1{
+    color: #D7AA55;
+    margin-top: 50px;
+    text-align: center;
+}
+
