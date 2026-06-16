@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Téranga Sirop - Le Goût Authentique</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="logo.png" alt="Téranga Sirop" class="nav-logo-img">
+                <span class="nav-logo-text">Téranga Sirop</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Nos Sirops</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#temoignages">Avis</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="https://wa.me/221775439397" class="btn-order-nav" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Commander
+                </a>
+                <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="accueil">
+        <div class="hero-bg">
+            <div class="hero-shape hero-shape-1"></div>
+            <div class="hero-shape hero-shape-2"></div>
+            <div class="hero-shape hero-shape-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">100% Naturel</div>
+                <h1 class="hero-title">
+                    Découvrez les<br>
+                    <span class="highlight">Sirops Téranga</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Des sirops artisanaux à base d'ingrédients naturels, riches en antioxydants et en vitamine C. 
+                    Le goût authentique de l'Africa.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#produits" class="btn btn-primary">
+                        <i class="fas fa-lemon"></i> Découvrir nos sirops
+                    </a>
+                    <a href="https://wa.me/221775439397" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Commander sur WhatsApp
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Saveurs</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Naturel</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number">1L</span>
+                        <span class="stat-label">Format</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="images/Landing-page.png" alt="Sirops Téranga" class="hero-image">
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#produits">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </header>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>100% Naturel</h3>
+                    <p>Des ingrédients soigneusement sélectionnés, sans additifs artificiels</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Riche en Antioxydants</h3>
+                    <p>Protégez votre corps avec nos sirops pleins de bienfaits</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Vitamine C</h3>
+                    <p>Source naturelle de vitamine C pour renforcer votre immunité</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Fait Artisanal</h3>
+                    <p>Recettes traditionnelles transmises de génération en génération</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="produits">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nos Produits</span>
+                <h2 class="section-title">Nos Sirops <span class="highlight">Authentiques</span></h2>
+                <p class="section-subtitle">6 saveurs uniques, chaque bouteille de 1L est une explosion de saveurs naturelles</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card" data-product="bissap">
+                    <div class="product-badge">Populaire</div>
+                    <div class="product-image">
+                        <img src="images/Bissap.png" alt="Sirop Bissap" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart" onclick="orderOnWhatsApp('Sirop Bissap')">
+                                <i class="fab fa-whatsapp"></i> Commander
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #8b1a3a;"></span>
+                            <span class="color-name">Rouge profond</span>
+                        </div>
+                        <h3 class="product-name">Sirop Bissap</h3>
+                        <p class="product-desc">Fleur d'hibiscus séchée, sucre, citron, essence d'orange. Riche en antioxydants et vitamine C.</p>
+                        <div class="product-meta">
+                            <span class="product-volume"><i class="fas fa-flask"></i> 1L</span>
+                            <span class="product-natural"><i class="fas fa-leaf"></i> 100% naturel</span>
+                        </div>
+                        <a href="https://wa.me/221775439397?text=Bonjour, je souhaite commander un Sirop Bissap" class="btn btn-product" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Commander
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product="bissap-blanc">
+                    <div class="product-image">
+                        <img src="images/Bissap Blanc.png" alt="Sirop Bissap Blanc" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart" onclick="orderOnWhatsApp('Sirop Bissap blanc')">
+                                <i class="fab fa-whatsapp"></i> Commander
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #e8d48b;"></span>
+                            <span class="color-name">Doré délicat</span>
+                        </div>
+                        <h3 class="product-name">Sirop Bissap Blanc</h3>
+                        <p class="product-desc">Fleurs d'hibiscus blanches, sucre, citron, essence de vanille. Douceur et fraîcheur.</p>
+                        <div class="product-meta">
+                            <span class="product-volume"><i class="fas fa-flask"></i> 1L</span>
+                            <span class="product-natural"><i class="fas fa-leaf"></i> 100% naturel</span>
+                        </div>
+                        <a href="https://wa.me/221775439397?text=Bonjour, je souhaite commander un Sirop Bissap blanc" class="btn btn-product" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Commander
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product="gingembre">
+                    <div class="product-badge">Énergie</div>
+                    <div class="product-image">
+                        <img src="images/Gingembre.png" alt="Sirop Gingembre" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart" onclick="orderOnWhatsApp('Sirop Gingembre')">
+                                <i class="fab fa-whatsapp"></i> Commander
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #e8a832;"></span>
+                            <span class="color-name">Ambre vibrant</span>
+                        </div>
+                        <h3 class="product-name">Sirop Gingembre</h3>
+                        <p class="product-desc">Gingembre frais, sucre, citron. Stimule l'immunité et redonne de l'énergie.</p>
+                        <div class="product-meta">
+                            <span class="product-volume"><i class="fas fa-flask"></i> 1L</span>
+                            <span class="product-natural"><i class="fas fa-leaf"></i> 100% naturel</span>
+                        </div>
+                        <a href="https://wa.me/221775439397?text=Bonjour, je souhaite commander un Sirop Gingembre" class="btn btn-product" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Commander
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product="bouye">
+                    <div class="product-image">
+                        <img src="images/Bouye.png" alt="Sirop Bouye" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart" onclick="orderOnWhatsApp('Sirop Bouye')">
+                                <i class="fab fa-whatsapp"></i> Commander
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #a0784c;"></span>
+                            <span class="color-name">Brun onctueux</span>
+                        </div>
+                        <h3 class="product-name">Sirop Bouye</h3>
+                        <p class="product-desc">Pulpe de bouye naturelle, sucre, citron. Riche en vitamine C et fibres, favorise la digestion.</p>
+                        <div class="product-meta">
+                            <span class="product-volume"><i class="fas fa-flask"></i> 1L</span>
+                            <span class="product-natural"><i class="fas fa-leaf"></i> 100% naturel</span>
+                        </div>
+                        <a href="https://wa.me/221775439397?text=Bonjour, je souhaite commander un Sirop Bouye" class="btn btn-product" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Commander
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product="moringa">
+                    <div class="product-badge">Superfood</div>
+                    <div class="product-image">
+                        <img src="images/Moringa.png" alt="Sirop Moringa" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart" onclick="orderOnWhatsApp('Sirop Moringa')">
+                                <i class="fab fa-whatsapp"></i> Commander
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #4a7c3f;"></span>
+                            <span class="color-name">Vert profond</span>
+                        </div>
+                        <h3 class="product-name">Sirop Moringa</h3>
+                        <p class="product-desc">Feuilles de moringa fraîches, sucre, citron. Source de fer, calcium et vitamine C.</p>
+                        <div class="product-meta">
+                            <span class="product-volume"><i class="fas fa-flask"></i> 1L</span>
+                            <span class="product-natural"><i class="fas fa-leaf"></i> 100% naturel</span>
+                        </div>
+                        <a href="https://wa.me/221775439397?text=Bonjour, je souhaite commander un Sirop Moringa" class="btn btn-product" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Commander
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product="tamarin">
+                    <div class="product-image">
+                        <img src="images/Tamarin.png" alt="Sirop Tamarin" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart" onclick="orderOnWhatsApp('Sirop Tamarin')">
+                                <i class="fab fa-whatsapp"></i> Commander
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #5c3a1e;"></span>
+                            <span class="color-name">Marron riche</span>
+                        </div>
+                        <h3 class="product-name">Sirop Tamarin</h3>
+                        <p class="product-desc">Pulpe de tamarin naturelle, sucre, citron. Riche en antioxydants, favorise la digestion.</p>
+                        <div class="product-meta">
+                            <span class="product-volume"><i class="fas fa-flask"></i> 1L</span>
+                            <span class="product-natural"><i class="fas fa-leaf"></i> 100% naturel</span>
+                        </div>
+                        <a href="https://wa.me/221775439397?text=Bonjour, je souhaite commander un Sirop Tamarin" class="btn btn-product" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Commander
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="apropos">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag">Notre Histoire</span>
+                    <h2 class="section-title">L'Authenticité au <span class="highlight">Porte de Chez Vous</span></h2>
+                    <p class="about-text">
+                        Téranga Sirop, c'est bien plus qu'une boisson. C'est un voyage au coeur des saveurs africaines, 
+                        une celebration de la nature et de ses bienfaits. Chaque goutte raconte une histoire de tradition 
+                        et de savoir-faire transmis de generation en generation.
+                    </p>
+                    <p class="about-text">
+                        Nos sirops sont fabriques artisanalement avec des ingredients 100% naturels, 
+                        sans conservateurs artificiels. Du bissap au moringa, en passant par le gingembre et la bouye, 
+                        chaque saveur est une invitation a decouvrir la richesse de notre terroir.
+                    </p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ingredients naturels</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Fait artisanalement</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Sans conservateurs</span>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Recettes traditionnelles</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/221775439397" class="btn btn-primary" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Nous contacter
+                    </a>
+                </div>
+                <div class="about-visual">
+                    <div class="about-card about-card-1">
+                        <div class="about-card-icon"><i class="fas fa-leaf"></i></div>
+                        <h4>100% Naturel</h4>
+                        <p>Des ingredients choisis avec soin</p>
+                    </div>
+                    <div class="about-card about-card-2">
+                        <div class="about-card-icon"><i class="fas fa-heart"></i></div>
+                        <h4>Fait avec Amour</h4>
+                        <p>Artisanat et passion</p>
+                    </div>
+                    <div class="about-card about-card-3">
+                        <div class="about-card-icon"><i class="fas fa-globe-africa"></i></div>
+                        <h4>Savoir-Faire Africain</h4>
+                        <p>Traditions ancestrales</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="temoignages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Temoignages</span>
+                <h2 class="section-title">Ce que disent nos <span class="highlight">Clients</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Le sirop bissap est incroyable ! Le gout est tellement authentique, on se croirait au Senegal. 
+                        Je recommande vivement."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: #d4456a;">A</div>
+                        <div class="author-info">
+                            <span class="author-name">Aissatou</span>
+                            <span class="author-location">Dakar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Le sirop gingembre est devenu mon bevorit. Il est parfait pour l'hiver et me donne beaucoup d'energie. 
+                        Téranga Sirop, c'est du solide !"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: #e8a832;">M</div>
+                        <div class="author-info">
+                            <span class="author-name">Mouhamadou</span>
+                            <span class="author-location">Paris</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "J'adore le sirop bouye ! Il est onctueux et delicat. Mes enfants l'adorent aussi. 
+                        Le meilleur sirop naturel que j'ai goute."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: #a0784c;">F</div>
+                        <div class="author-info">
+                            <span class="author-name">Fatou</span>
+                            <span class="author-location">Lyon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Envie de decouvrir nos sirops ?</h2>
+                <p>Commandez directement et recevez vos sirops partout au Senegal !</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/221775439397" class="btn btn-whatsapp btn-large" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Commander sur WhatsApp
+                    </a>
+                    <a href="tel:+221775439397" class="btn btn-outline btn-large">
+                        <i class="fas fa-phone"></i> Nous appeler
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="payment-section" id="paiement">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Paiement</span>
+                <h2 class="section-title">Modes de <span class="highlight">Paiement</span></h2>
+                <p class="section-subtitle">Payez facilement par mobile money, c'est rapide et securise</p>
+            </div>
+            <div class="payment-grid">
+                <div class="payment-card payment-orange">
+                    <div class="payment-logo">
+                        <div class="payment-icon-orange">
+                            <span>OM</span>
+                        </div>
+                    </div>
+                    <h3>Orange Money</h3>
+                    <p>Payez avec votre compte Orange Money. Rapide et securise.</p>
+                    <div class="payment-steps">
+                        <div class="step">
+                            <span class="step-num">1</span>
+                            <span>Envoyez votre commande sur WhatsApp</span>
+                        </div>
+                        <div class="step">
+                            <span class="step-num">2</span>
+                            <span>Recevez le numero de paiement</span>
+                        </div>
+                        <div class="step">
+                            <span class="step-num">3</span>
+                            <span>Envoyez l'argent au numero Orange Money</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/221775439397?text=Bonjour, je souhaite payer avec Orange Money" class="btn btn-orange" target="_blank">
+                        <i class="fas fa-mobile-alt"></i> Payer avec Orange Money
+                    </a>
+                </div>
+                <div class="payment-card payment-wave">
+                    <div class="payment-logo">
+                        <div class="payment-icon-wave">
+                            <span>W</span>
+                        </div>
+                    </div>
+                    <h3>Wave</h3>
+                    <p>Payez avec Wave, c'est simple et sans frais.</p>
+                    <div class="payment-steps">
+                        <div class="step">
+                            <span class="step-num">1</span>
+                            <span>Envoyez votre commande sur WhatsApp</span>
+                        </div>
+                        <div class="step">
+                            <span class="step-num">2</span>
+                            <span>Recevez le numero Wave</span>
+                        </div>
+                        <div class="step">
+                            <span class="step-num">3</span>
+                            <span>Envoyez l'argent via Wave</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/221775439397?text=Bonjour, je souhaite payer avec Wave" class="btn btn-wave" target="_blank">
+                        <i class="fas fa-bolt"></i> Payer avec Wave
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Nous <span class="highlight">Contacter</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                    <h3>WhatsApp</h3>
+                    <p>+221 77 543 93 97</p>
+                    <a href="https://wa.me/221775439397" target="_blank" class="btn btn-small">Envoyer un message</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <h3>Telephone</h3>
+                    <p>+221 76 555 44 22</p>
+                    <a href="tel:+221765554422" class="btn btn-small">Appeler</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>Terangasirop221@gmail.com</p>
+                    <a href="mailto:Terangasirop221@gmail.com" class="btn btn-small">Envoyer un email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Téranga Sirop" class="footer-logo-img">
+                    </div>
+                    <p class="footer-desc">
+                        Des sirops artisanaux 100% naturels, pour un gout authentique et des bienfaits pour la sante.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/221775439397" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.tiktok.com/@terangasirop" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="mailto:Terangasirop221@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#produits">Nos Sirops</a></li>
+                        <li><a href="#apropos">A Propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Nos Sirops</h4>
+                    <ul>
+                        <li><a href="#produits">Sirop Bissap</a></li>
+                        <li><a href="#produits">Sirop Bissap Blanc</a></li>
+                        <li><a href="#produits">Sirop Gingembre</a></li>
+                        <li><a href="#produits">Sirop Bouye</a></li>
+                        <li><a href="#produits">Sirop Moringa</a></li>
+                        <li><a href="#produits">Sirop Tamarin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Téranga Sirop. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/221775439397" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
